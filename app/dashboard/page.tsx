@@ -1,6 +1,9 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+
+// Force dynamic rendering
+export const dynamic = 'force-dynamic';
 import { Flame, LogOut, TrendingUp, Zap } from 'lucide-react';
 import Link from 'next/link';
 import { supabase } from '@/lib/supabase';
